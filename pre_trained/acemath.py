@@ -1,9 +1,9 @@
 """
-NVIDIA maths LLM from Hugging Face: https://huggingface.co/nvidia/AceMath-72B-Instruct
+NVIDIA maths LLM from Hugging Face: https://huggingface.co/nvidia/AceMath-7B-Instruct
 """
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "nvidia/AceMath-72B-Instruct"
+model_name = "nvidia/AceMath-7B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", device_map="auto")
 
