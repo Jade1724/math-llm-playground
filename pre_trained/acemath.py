@@ -1,5 +1,7 @@
 """
 NVIDIA maths LLM from Hugging Face: https://huggingface.co/nvidia/AceMath-7B-Instruct
+
+NOTE: This model did not run on my local machine where RTX 2080 Super only has 8GB of VRAM. 
 """
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
