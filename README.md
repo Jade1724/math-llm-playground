@@ -35,3 +35,18 @@ Run scripts
 python3 path-to-the-script
 ```
 
+## Evaluation of models
+
+The evalutions are done by feeding maths question and answer pairs to the model and compare the outputs. 
+
+Under the prompts folder, there are 6 modules.
+
+prompts
+L algebra.py
+L geometry.py
+L measurement.py
+L number.py
+L probability.py
+L statistics.py
+
+This is matching the maths topics defined by [New Zealand government website](https://newzealandcurriculum.tahurangi.education.govt.nz/5637238339.p).
