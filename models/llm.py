@@ -1,13 +1,13 @@
 class Input:
     def __init__(self, question: str, topic: str, year: int, answer: str):
-       self.questions = question
+       self.question = question
        self.topic = topic 
        self.year = year
        self.answer = answer
 
     def get_prompt(self) -> str:
         return f"""
-        Question: {self.questions}
+        Question: {self.question}
         Answer: {self.answer}
         """
 
