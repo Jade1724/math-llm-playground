@@ -1,2 +1,3 @@
 # Pip env
 .env/**
+__pycache__/
